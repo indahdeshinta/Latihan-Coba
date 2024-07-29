@@ -1,0 +1,8 @@
+from matplotlib import pyplot as plt
+from matplotlib import image as mpimg
+
+#Menampilkan gambar
+image = mpimg.imread("coba.jpg")
+plt.imshow(image)
+plt.show()
+
